@@ -7,7 +7,7 @@ const Create = () => {
   const [author, setAuthor] = useState('mario');
   const history = useHistory();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     const blog = { title, body, author };
 
